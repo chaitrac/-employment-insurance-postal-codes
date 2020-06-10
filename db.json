@@ -1,9 +1,32 @@
 {
-  "posts": [
-    {
-       "id":1,
-       "ApplicationID": "185764656",
-       "SessionId":"12345"   
+  "AddressesResponse": [
+    { "AllResults":[
+        "Results" : [
+            "Result" : [
+                "AddressMatchObject" : [
+                    "AddressMatch" : [
+                          "AddressType": "UrbanAddress",
+                          "DirectoryAreaName": "OTTAWA",
+                          "City": "OTTAWA",
+                          "Province": "ON",
+                          "Country": "CANADA",
+                          "PostalCode": "K1A1A1",
+                          "StreetAddressSequence": "Even",
+                          "StreetDirection": "",
+                          "StreetName": "SPARKS",
+                          "StreetNumberMinimum": "240",
+                          "StreetNumberMaximum": "240",
+                          "StreetNumberSuffixMinimum": "",
+                          "StreetNumberSuffixMaximum": "",
+                          "StreetType": "ST",
+                          "SuiteNumberMinimum": "800",
+                          "SuiteNumberMaximum": "800",
+                          "AddressLine": "{0}{1} SPARKS ST 800 - 800{2}{3}"
+                    ]
+                ]
+            ]
+        ]
+      ]  
     }
   ],
   "profile": {
