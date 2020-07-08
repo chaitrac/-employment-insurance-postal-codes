@@ -1,4 +1,6 @@
 {
+  "posts": 
+    {
     "data": {
         "Output": {
             "AllResults": {
@@ -91,4 +93,8 @@
     "specversion": "0.2",
     "time": "2020-07-08T14:34:06.919Z",
     "type": "esdcapp-response-stream"
+},
+  "profile": {
+    "name": "typicode"
+  }
 }
