@@ -1,36 +1,94 @@
 {
-  "AddressesResponse": {
-    "Output": {
-      "AllResults": {
-        "Results": {
-          "Result": {
-            "AddressMatches": {
-              "AddressMatch": {
-                "AddressType": "UrbanAddress",
-                "DirectoryAreaName": "OTTAWA",
-                "City": "OTTAWA",
-                "Province": "ON",
-                "Country": "CANADA",
-                "PostalCode": "K1A1A1",
-                "StreetAddressSequence": "Even",
-                "StreetDirection": "",
-                "StreetName": "SPARKS",
-                "StreetNumberMinimum": "240",
-                "StreetNumberMaximum": "240",
-                "StreetNumberSuffixMinimum": "",
-                "StreetNumberSuffixMaximum": "",
-                "StreetType": "ST",
-                "SuiteNumberMinimum": "800",
-                "SuiteNumberMaximum": "800",
-                "AddressLine": "{0}{1} SPARKS ST 800 - 800{2}{3}"
-              }
-            }
-          }
+    "data": {
+        "Output": {
+            "AllResults": {
+                "Results": {
+                    "Result": {
+                        "AddressMatches": [
+                            {
+                                "AddressMatch": {
+                                    "AddressLine": "[0}{1} CORONATION ST{2}{3}",
+                                    "AddressType": "UrbanAddress",
+                                    "City": "ST. JOHN'S",
+                                    "Country": "CAN",
+                                    "DeliveryInstallationAreaName": "string",
+                                    "DeliveryInstallationDescription": "string",
+                                    "DeliveryInstallationQualifierName": "string",
+                                    "DirectoryAreaName": "ST. JOHN'S",
+                                    "LockBoxNumberMaximum": "string",
+                                    "LockBoxNumberMinimum": "string",
+                                    "PostalCode": "A1C5B9",
+                                    "Province": "NL",
+                                    "RouteServiceNumber": "string",
+                                    "RouteServiceType": "string",
+                                    "RuralRouteServiceNumber": "string",
+                                    "RuralRouteServiceType": "string",
+                                    "StreetAddressSequence": "Odd",
+                                    "StreetDirection": "string",
+                                    "StreetName": "CORONATION",
+                                    "StreetNumberMaximum": 31,
+                                    "StreetNumberMinimum": 1,
+                                    "StreetNumberSuffixMaximum": "string",
+                                    "StreetNumberSuffixMinimum": "string",
+                                    "StreetType": "ST",
+                                    "SuiteNumberMaximum": 0,
+                                    "SuiteNumberMinimum": 0
+                                }
+                            },
+                            {
+                                "AddressMatch": {
+                                    "AddressLine": "[0}{1} CORONATION ST{2}{3}",
+                                    "AddressType": "UrbanAddress",
+                                    "City": "ST. JOHN'S",
+                                    "Country": "CAN",
+                                    "DeliveryInstallationAreaName": "string",
+                                    "DeliveryInstallationDescription": "string",
+                                    "DeliveryInstallationQualifierName": "string",
+                                    "DirectoryAreaName": "ST. JOHN'S",
+                                    "LockBoxNumberMaximum": "string",
+                                    "LockBoxNumberMinimum": "string",
+                                    "PostalCode": "A2C6C0",
+                                    "Province": "NL",
+                                    "RouteServiceNumber": "string",
+                                    "RouteServiceType": "string",
+                                    "RuralRouteServiceNumber": "string",
+                                    "RuralRouteServiceType": "string",
+                                    "StreetAddressSequence": "Odd",
+                                    "StreetDirection": "string",
+                                    "StreetName": "CORONATION",
+                                    "StreetNumberMaximum": 8000,
+                                    "StreetNumberMinimum": 1000,
+                                    "StreetNumberSuffixMaximum": "string",
+                                    "StreetNumberSuffixMinimum": "string",
+                                    "StreetType": "ST",
+                                    "SuiteNumberMaximum": 200,
+                                    "SuiteNumberMinimum": 100
+                                }
+                            }
+                        ],
+                        "OutputParameters": {
+                            "Message": "1",
+                            "StatusCode": "RecordsFound"
+                        },
+                        "Statistics": {
+                            "ProcessDuration": "15.664",
+                            "ProcessFinishedAt": "2008-12-08 14:13:01",
+                            "ProcessStartedAt": "2008-12-08 14:13:01"
+                        }
+                    }
+                }
+            },
+            "WebServiceName": "WSAddress",
+            "WebServiceVersion": "2.7.7375.14665"
         }
-      }
-    }
-  },
-  "profile": {
-    "name": "typicode"
-  }
+    },
+    "id": "c8293c08c47b20fd:ef20041b0648049b:c8293c08c47b20fd:1",
+    "rig": {
+        "correlation": "O1-dVdyLnL1T1HpfHb-SKAKTM7dO7-BUMwyS0tsPkE9Pycgpx56BNFI_NFGMWAfTfq2RSu9FJPkf_lY0"
+    },
+    "schemaurl": "esdcapp-response-stream-value",
+    "source": "wsaddress-proxy-producer",
+    "specversion": "0.2",
+    "time": "2020-07-08T14:34:06.919Z",
+    "type": "esdcapp-response-stream"
 }
